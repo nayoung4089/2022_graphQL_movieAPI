@@ -13,6 +13,7 @@ const typeDefs = gql`
        poster_path: String!
        runtime: Int! 
        release_date: String!
+       overview: String!
        videoUrl: VideoMovie
        similarMovies: [SimilarMovie!]!
   }
